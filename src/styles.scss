@@ -1,4 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 html {
   font-family: "Chau Philomene One", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(222, 190, 5, 1) 5%,
+    rgba(222, 190, 5, 1) 95%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
 }
