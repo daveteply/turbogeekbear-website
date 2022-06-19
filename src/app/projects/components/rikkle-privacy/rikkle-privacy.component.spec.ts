@@ -8,9 +8,8 @@ describe('RikklePrivacyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RikklePrivacyComponent ]
-    })
-    .compileComponents();
+      declarations: [RikklePrivacyComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

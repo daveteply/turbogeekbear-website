@@ -3,15 +3,8 @@ import { CommonModule } from '@angular/common';
 import { AboutRoutingModule } from './about-routing.module';
 import { AboutContainerComponent } from './components/about-container/about-container.component';
 
-
-
 @NgModule({
-  declarations: [
-    AboutContainerComponent
-  ],
-  imports: [
-    CommonModule,
-    AboutRoutingModule
-  ]
+  declarations: [AboutContainerComponent],
+  imports: [CommonModule, AboutRoutingModule],
 })
-export class AboutModule { }
+export class AboutModule {}

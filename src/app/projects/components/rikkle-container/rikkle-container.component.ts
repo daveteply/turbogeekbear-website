@@ -3,13 +3,10 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'tur-rikkle-container',
   templateUrl: './rikkle-container.component.html',
-  styleUrls: ['./rikkle-container.component.scss']
+  styleUrls: ['./rikkle-container.component.scss'],
 })
 export class RikkleContainerComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

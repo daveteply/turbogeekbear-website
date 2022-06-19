@@ -5,10 +5,7 @@ import { RikkleContainerComponent } from './components/rikkle-container/rikkle-c
 import { RikklePrivacyComponent } from './components/rikkle-privacy/rikkle-privacy.component';
 
 @NgModule({
-  declarations: [
-    RikkleContainerComponent,
-    RikklePrivacyComponent
-  ],
+  declarations: [RikkleContainerComponent, RikklePrivacyComponent],
   imports: [CommonModule, ProjectsRoutingModule],
 })
 export class ProjectsModule {}
