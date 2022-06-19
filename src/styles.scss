@@ -1,10 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./styles-vars.scss";
+
 html {
   font-family: "Chau Philomene One", sans-serif;
+  font-size: larger;
   color: #000000;
 
   @media (prefers-color-scheme: dark) {
     background-color: #000000;
-    color: #cccccc;
+    color: $dark-mode-color;
+  }
+}
+
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #000000;
+  @media (prefers-color-scheme: dark) {
+    color: $dark-mode-color;
   }
 }

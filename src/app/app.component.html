@@ -1,10 +1,21 @@
 <div id="app-content">
-  <div class="logo">
+  <div class="logo" routerLink="/">
     <a
       class="contact-link"
       href="mailto:daveteply@turbogeekbear.com?subject=Inquiry from turbogeekbear.com"
       >Contact Us</a
     >
   </div>
+  <nav class="main-navigation">
+    <ul>
+      <li>
+        <a routerLink="projects/rikkle">
+          <img src="assets/rikkle/favicon-32x32.png" />
+          Rikkle</a
+        >
+      </li>
+      <li><i>More coming soon!</i></li>
+    </ul>
+  </nav>
   <router-outlet></router-outlet>
 </div>
