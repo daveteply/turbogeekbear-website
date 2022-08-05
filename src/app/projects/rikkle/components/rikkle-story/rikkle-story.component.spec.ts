@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RikkleAboutComponent } from './rikkle-about.component';
+import { RikkleStoryComponent } from './rikkle-story.component';
 
-describe('RikkleAboutComponent', () => {
-  let component: RikkleAboutComponent;
-  let fixture: ComponentFixture<RikkleAboutComponent>;
+describe('RikkleStoryComponent', () => {
+  let component: RikkleStoryComponent;
+  let fixture: ComponentFixture<RikkleStoryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [RikkleAboutComponent],
+      declarations: [RikkleStoryComponent],
     }).compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(RikkleAboutComponent);
+    fixture = TestBed.createComponent(RikkleStoryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

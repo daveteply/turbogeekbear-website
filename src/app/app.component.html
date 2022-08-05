@@ -7,22 +7,13 @@
     >
   </div>
   <nav class="main-navigation">
-    <ul>
-      <li>
-        <a
-          class="nav-link"
-          routerLinkActive="active"
-          routerLink="projects/rikkle"
-        >
-          <img src="assets/rikkle/favicon-32x32.png" />
-          Rikkle</a
-        >
-        <sub>
-          <a class="sub-link" routerLink="projects/rikkle/about">About</a></sub
-        >
-      </li>
-      <li><i>More coming soon!</i></li>
-    </ul>
+    <div class="nav-item" routerLinkActive="active">
+      <a routerLink="projects/rikkle">
+        <img src="assets/rikkle/favicon-32x32.png" />
+        Rikkle</a
+      >
+    </div>
+    <div class="nav-item">More coming soon!</div>
   </nav>
   <router-outlet></router-outlet>
 </div>

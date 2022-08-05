@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Credits } from './credits';
 
 @Component({
-  selector: 'tur-rikkle-about',
-  templateUrl: './rikkle-about.component.html',
-  styleUrls: ['./rikkle-about.component.scss'],
+  selector: 'tur-credits',
+  templateUrl: './credits.component.html',
+  styleUrls: ['./credits.component.scss'],
 })
-export class RikkleAboutComponent implements OnInit {
+export class CreditsComponent implements OnInit {
   creditsData: any;
 
   constructor() {}
