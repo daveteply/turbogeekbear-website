@@ -1,0 +1,6 @@
+<div class="credits">
+  <div *ngFor="let credit of creditsData" class="credit-item">
+    <span>{{ credit.desc }}&NonBreakingSpace;</span>
+    <a target="_blank" [href]="credit.href">{{ credit.title }}</a>
+  </div>
+</div>

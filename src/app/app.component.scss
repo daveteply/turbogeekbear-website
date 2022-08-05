@@ -31,19 +31,28 @@
       font-size: medium;
     }
     ul {
+      a {
+        &:visited,
+        &:link {
+          color: #000000;
+        }
+      }
       font-size: larger;
       list-style-type: none;
       display: flex;
       li {
         padding-right: 1em;
-        a {
-          &:visited,
-          &:link {
-            color: #000000;
-          }
+        .nav-link {
           img {
             vertical-align: bottom;
           }
+        }
+        .active {
+          font-weight: bold;
+        }
+        .sub-link {
+          margin: 0.25em;
+          font-size: smaller;
         }
       }
     }

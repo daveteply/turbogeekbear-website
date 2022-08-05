@@ -1,0 +1,22 @@
+.credits {
+  margin: 1em 0;
+  .credit-item {
+    padding-bottom: 0.5em;
+    display: flex;
+    justify-content: space-between;
+
+    &:nth-child(even) {
+      background-color: #f2f2f240;
+      @media (prefers-color-scheme: dark) {
+        background-color: #f2f2f214;
+      }
+    }
+
+    a {
+      font-weight: bold;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
