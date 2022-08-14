@@ -1,0 +1,29 @@
+@import "../../../../../styles-vars.scss";
+
+.sub-nav {
+  text-align: left;
+}
+
+.feature-media {
+  margin-top: 1em;
+  height: 20em;
+  background-image: url("/assets/griddin/Griddin-Google-Feature.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  @media only screen and (max-width: 600px) {
+    height: 10em;
+  }
+}
+
+.write-up {
+  text-align: left;
+  margin: auto;
+  max-width: 40em;
+}
+
+.google-link {
+  img {
+    width: 15em;
+  }
+}

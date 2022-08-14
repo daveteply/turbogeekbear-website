@@ -1,24 +1,24 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
-import { RikkleContainerComponent } from './components/rikkle-container/rikkle-container.component';
+import { CommonModule } from '@angular/common';
+import { GriddinContainerComponent } from './components/griddin-container/griddin-container.component';
+import { GriddinStoryComponent } from './components/griddin-story/griddin-story.component';
 import { CreditsComponent } from '../components/credits/credits.component';
 import { ScreenShotsComponent } from './components/screen-shots/screen-shots.component';
-import { RikkleStoryComponent } from './components/rikkle-story/rikkle-story.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: RikkleContainerComponent,
+    component: GriddinContainerComponent,
     children: [
       {
         path: 'story',
-        component: RikkleStoryComponent,
+        component: GriddinStoryComponent,
       },
       {
         path: 'credits',
         component: CreditsComponent,
-        data: { title: 'rikkle' },
+        data: { title: 'griddin' },
       },
       {
         path: 'screen-shots',
@@ -34,4 +34,4 @@ const routes: Routes = [
   imports: [CommonModule, RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class RikkleRoutingModule {}
+export class GriddinRoutingModule {}

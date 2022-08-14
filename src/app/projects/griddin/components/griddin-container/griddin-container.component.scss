@@ -1,0 +1,13 @@
+@import "../../../../../styles-vars.scss";
+
+.sub-nav {
+  margin-top: 1em;
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 0.25em solid $active-color;
+}

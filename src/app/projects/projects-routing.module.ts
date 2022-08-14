@@ -13,6 +13,11 @@ const routes: Routes = [
         loadChildren: () =>
           import('./rikkle/rikkle.module').then((m) => m.RikkleModule),
       },
+      {
+        path: 'griddin',
+        loadChildren: () =>
+          import('./griddin/griddin.module').then((m) => m.GriddinModule),
+      },
     ],
   },
 ];
