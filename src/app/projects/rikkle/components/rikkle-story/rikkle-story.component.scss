@@ -22,8 +22,20 @@
   max-width: 40em;
 }
 
-.google-link {
-  img {
-    width: 15em;
+.app-store-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5em;
+
+  .apple-app-store-link-img {
+    img {
+      width: 13.5em;
+    }
+  }
+
+  .google-app-store-link-img {
+    img {
+      width: 15em;
+    }
   }
 }
